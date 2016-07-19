@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-07-15 09:43:08
+ * @version $Id$
+ */
+ .clear{clear: both; }
+ .row{
+ 	margin-bottom:100px;
+ 	position: relative;
+ }
+ .jumbotron{
+	background-color:#b5dfd9;
+ }	
+#left{
+	background-color: #bdccc2;
+	position: absolute;
+	left: 0;
+
+}
+#left ul{
+	padding-left: 0px;
+	margin: 50px auto;
+}
+#left ul li{
+	list-style: none;
+	margin-bottom: 50px;
+}
+#left .task{
+	background-color: #e1e5e3;
+}
+#left .task .userinfo{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+#left .task .userImg{
+	float: left;
+	width: 100px;
+	height:100px;
+	margin-right: 50px;
+
+}
+#left .task .userImg img{
+	width: 100px;
+	height:100px;
+}
+#left .task .userName{
+	float: left;
+	width: 100px;
+	height:100px;
+}
+#left .task .content{
+	padding-top: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+#left .task p{
+	padding-bottom: 20px;
+	margin: 0px
+}
+#left .task .comment{
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+}
+#right img{
+	margin:40px auto;
+	display: block;
+	width: 100px;
+	height:100px;
+}
+#right{
+	background-color: #bdccc2;
+	position: absolute;
+	right: 0;
+}
+#right button{	
+	margin:20px auto;
+	display: block;
+}
