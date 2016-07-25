@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-07-15 09:43:08
+ * @version $Id$
+ */
+ body{width: 100%;	background-color: #656766;}
+#container{
+	width: 1080px;
+	margin: 0 auto;
+}
+.row{width:960px;margin: 0 auto;}
+#head{
+	height:290px;
+	background:url('../images/banner.png');
+	margin-bottom: 15px;
+}
+#main .nav-tabs{
+	border: 0;
+}
+#main .nav-tabs li{
+	background-color: #9bb8b2;
+	width: 100px;
+	height: 35px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+}
+#main .nav-tabs li a{
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 18px;
+	font-size: 18px;
+	margin: 0px;
+	color: #000;
+}
+#main .nav-tabs li a:active{
+	background-color: #93d8c9;
+}
+
+ .clear{clear: both; }
+ .row{
+ 	margin-bottom:100px;
+ 	position: relative;
+ }
+
+#left{
+	width: 600px;
+	background-color: #bdccc2;
+	position: absolute;
+	left: 0;
+
+}
+#left ul{
+	padding: 0px;
+}
+#left ul li{	
+	list-style: none;
+	margin:0 auto;
+	margin-top: 25px;
+	width: 526px;
+	height: 150px;
+}
+#left .task{
+	border-radius: 8px;
+	background-color: #e1e5e3;
+}
+#left .task .userinfo{
+	padding-top: 15px;
+	margin-left: 15px;
+}
+#left .task .userImg{
+	float: left;
+	width: 100px;
+	height:100px;
+	margin-right: 50px;
+
+}
+#left .task .userImg img{
+	width: 100px;
+	height:100px;
+}
+#left .task .userName{
+	font-size: 20px;
+	color: #2e91c6;
+	float: left;
+	width: 100px;
+	height:100px;
+}
+#left .task .focus{
+	color: #000;
+	width: 100px;
+	background-color: #bce4db;
+}
+
+#left .task p{
+	font-size: 20px;
+	margin-left: 65px;
+	width: 396px;
+	height: 62px;
+	padding-bottom: 20px;
+}
+
+#right .user{
+	margin-top: 50px;
+	padding:0 16px;
+}
+#right .user img{
+	border: 5px solid #94d4c6;
+	display: inline-block;
+	width: 90px;
+	height:90px;
+	float: left;
+	margin-right: 16px;
+}
+#right .name{
+	padding-left: 15px;
+	padding-top: 15px;
+	background-color: #e5e5e5;
+	width: 160px;
+	height: 90px;
+	float: left;
+}
+#right .name p{
+	font-size: 17px;
+}
+
+#right{
+	width: 300px;
+	height: 300px;
+	background-color: #bdccc2;
+	position: absolute;
+	right: 0;
+}
+#right .button{
+	text-align: center;
+	margin-top:30px;
+}
+#right .button button{	
+	border:2px solid #c2c2c2;
+	background-color: #c9c9c9;
+	color: #000;
+	width: 82px;
+	height: 35px;
+	margin-right: 4px;
+	display: inline-block;
+}
+#right button{	
+	border:2px solid #c2c2c2;
+	background-color: #c9c9c9;
+	color: #000;
+	width: 264px;
+	height: 35px;
+	margin-top: 15px;
+}
